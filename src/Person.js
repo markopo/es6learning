@@ -7,4 +7,12 @@ class Person {
     constructor(name) {
         this.name = name;
     }
+
+    greet() {
+        return this.name + ' says Hi!';
+    }
 }
+
+console.log(new Person('Marko').greet()); 
+
+
