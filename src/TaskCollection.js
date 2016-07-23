@@ -5,7 +5,7 @@ class TaskCollection {
     }
 
     log() {
-        this.tasks.forEach(task => console.log(task));
+        this.tasks.forEach((task, index) => console.log(task, index));
     }
 
 
