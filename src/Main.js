@@ -2,7 +2,9 @@
 
 
 
-
+function disCountPrice(total, discount = .1) {
+    return total - (total * discount); 
+}
 
 
 window.onload = function () {
@@ -16,6 +18,8 @@ window.onload = function () {
 
     tasks.log(); 
     
+    var d = disCountPrice(100); 
+    alert('discount: ' + d); 
 
 
 }; 
